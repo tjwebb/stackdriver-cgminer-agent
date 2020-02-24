@@ -34,7 +34,7 @@ This script requires that the following binaries are in your `PATH`:
 
 
 ```py
-git clone git@github.com:tjwebb/stackdriver-cgminer-agent.git
+git clone git@github.com:tjwebb/stackdriver-curl-agent.git
 pip install -r requirements.txt
 
 python install.py <miner_ip>
