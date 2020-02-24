@@ -1,10 +1,8 @@
-# stackdriver-cgminer-agent
+# stackdriver-curl-agent
 
-This is a lightweight logging agent that can be run on embedded miner controllers running cgminer.
-Most miner controllers are limited in disk and RAM resources, and do not include the basic tools you'd need to run a secure agent, such as Python, OpenSSL, cron, gcc, and so forth.
+This is a lightweight logging agent that can be run on embedded controllers with limited RAM.
+Many embedded systems do not include the basic tools you'd need to run a secure agent, such as Python, OpenSSL, cron, gcc, and so forth.
 This package includes an installer that you can run on a remote machine to install the agent and its dependencies over SSH.
-
-Tested on Antminer S7, S9, and S17.
 
 # Install
 
